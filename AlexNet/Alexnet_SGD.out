@@ -1,0 +1,173 @@
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/alexnet-owt-7be5be79.pth" to /cs/home/psxrm17/.cache/torch/hub/checkpoints/alexnet-owt-7be5be79.pth
+  0%|          | 0.00/233M [00:00<?, ?B/s]  2%|▏         | 5.81M/233M [00:00<00:03, 60.6MB/s]  5%|▌         | 12.6M/233M [00:00<00:03, 67.0MB/s]  8%|▊         | 19.0M/233M [00:00<00:03, 57.7MB/s] 11%|█         | 24.6M/233M [00:00<00:03, 57.1MB/s] 14%|█▎        | 32.0M/233M [00:00<00:03, 63.7MB/s] 16%|█▋        | 38.3M/233M [00:00<00:03, 64.4MB/s] 19%|█▉        | 44.5M/233M [00:00<00:03, 56.4MB/s] 22%|██▏       | 51.8M/233M [00:00<00:03, 61.8MB/s] 25%|██▌       | 58.5M/233M [00:00<00:02, 64.2MB/s] 28%|██▊       | 65.1M/233M [00:01<00:02, 65.7MB/s] 31%|███       | 72.4M/233M [00:01<00:02, 68.9MB/s] 35%|███▍      | 80.6M/233M [00:01<00:02, 73.8MB/s] 38%|███▊      | 87.7M/233M [00:01<00:02, 69.8MB/s] 41%|████      | 94.5M/233M [00:01<00:02, 69.8MB/s] 44%|████▍     | 102M/233M [00:01<00:01, 73.6MB/s]  47%|████▋     | 110M/233M [00:01<00:01, 74.0MB/s] 51%|█████     | 118M/233M [00:01<00:01, 77.5MB/s] 54%|█████▎    | 125M/233M [00:01<00:01, 70.4MB/s] 57%|█████▋    | 132M/233M [00:02<00:01, 64.8MB/s] 59%|█████▉    | 138M/233M [00:02<00:01, 62.2MB/s] 62%|██████▏   | 145M/233M [00:02<00:01, 64.4MB/s] 65%|██████▍   | 151M/233M [00:02<00:01, 62.1MB/s] 68%|██████▊   | 157M/233M [00:02<00:01, 61.8MB/s] 70%|███████   | 163M/233M [00:02<00:01, 60.0MB/s] 73%|███████▎  | 171M/233M [00:02<00:01, 64.5MB/s] 76%|███████▌  | 177M/233M [00:02<00:00, 64.1MB/s] 79%|███████▉  | 185M/233M [00:02<00:00, 69.9MB/s] 83%|████████▎ | 193M/233M [00:03<00:00, 72.3MB/s] 86%|████████▌ | 200M/233M [00:03<00:00, 69.8MB/s] 89%|████████▊ | 206M/233M [00:03<00:00, 68.6MB/s] 92%|█████████▏| 214M/233M [00:03<00:00, 70.7MB/s] 95%|█████████▍| 221M/233M [00:03<00:00, 72.3MB/s] 98%|█████████▊| 228M/233M [00:03<00:00, 70.8MB/s]100%|██████████| 233M/233M [00:03<00:00, 66.6MB/s]
+Epoch 0/29
+----------
+train Loss: 1.3489 Acc: 0.6041
+val Loss: 0.4761 Acc: 0.8423
+Epoch 1/29
+----------
+train Loss: 0.8813 Acc: 0.7318
+val Loss: 0.3649 Acc: 0.8790
+Epoch 2/29
+----------
+train Loss: 0.7653 Acc: 0.7632
+val Loss: 0.2555 Acc: 0.9127
+Epoch 3/29
+----------
+train Loss: 0.6706 Acc: 0.7913
+val Loss: 0.2464 Acc: 0.9199
+Epoch 4/29
+----------
+train Loss: 0.6202 Acc: 0.8048
+val Loss: 0.2246 Acc: 0.9246
+Epoch 5/29
+----------
+train Loss: 0.5888 Acc: 0.8151
+val Loss: 0.2128 Acc: 0.9263
+Epoch 6/29
+----------
+train Loss: 0.5504 Acc: 0.8278
+val Loss: 0.2050 Acc: 0.9313
+Epoch 7/29
+----------
+train Loss: 0.4081 Acc: 0.8701
+val Loss: 0.1398 Acc: 0.9574
+Epoch 8/29
+----------
+train Loss: 0.3730 Acc: 0.8787
+val Loss: 0.1474 Acc: 0.9512
+Epoch 9/29
+----------
+train Loss: 0.3739 Acc: 0.8803
+val Loss: 0.1396 Acc: 0.9558
+Epoch 10/29
+----------
+train Loss: 0.3590 Acc: 0.8841
+val Loss: 0.1292 Acc: 0.9591
+Epoch 11/29
+----------
+train Loss: 0.3538 Acc: 0.8842
+val Loss: 0.1315 Acc: 0.9569
+Epoch 12/29
+----------
+train Loss: 0.3437 Acc: 0.8897
+val Loss: 0.1271 Acc: 0.9580
+Epoch 13/29
+----------
+train Loss: 0.3362 Acc: 0.8924
+val Loss: 0.1353 Acc: 0.9591
+Epoch 14/29
+----------
+train Loss: 0.3279 Acc: 0.8940
+val Loss: 0.1276 Acc: 0.9604
+Epoch 15/29
+----------
+train Loss: 0.3314 Acc: 0.8944
+val Loss: 0.1254 Acc: 0.9608
+Epoch 16/29
+----------
+train Loss: 0.3198 Acc: 0.8974
+val Loss: 0.1259 Acc: 0.9606
+Epoch 17/29
+----------
+train Loss: 0.3225 Acc: 0.8952
+val Loss: 0.1281 Acc: 0.9597
+Epoch 18/29
+----------
+train Loss: 0.3216 Acc: 0.8949
+val Loss: 0.1236 Acc: 0.9604
+Epoch 19/29
+----------
+train Loss: 0.3266 Acc: 0.8944
+val Loss: 0.1260 Acc: 0.9606
+Epoch 20/29
+----------
+train Loss: 0.3243 Acc: 0.8953
+val Loss: 0.1217 Acc: 0.9620
+Epoch 21/29
+----------
+train Loss: 0.3213 Acc: 0.8950
+val Loss: 0.1222 Acc: 0.9617
+Epoch 22/29
+----------
+train Loss: 0.3190 Acc: 0.8969
+val Loss: 0.1227 Acc: 0.9619
+Epoch 23/29
+----------
+train Loss: 0.3237 Acc: 0.8955
+val Loss: 0.1224 Acc: 0.9617
+Epoch 24/29
+----------
+train Loss: 0.3179 Acc: 0.8970
+val Loss: 0.1230 Acc: 0.9609
+Epoch 25/29
+----------
+train Loss: 0.3151 Acc: 0.8989
+val Loss: 0.1223 Acc: 0.9615
+Epoch 26/29
+----------
+train Loss: 0.3195 Acc: 0.8967
+val Loss: 0.1227 Acc: 0.9613
+Epoch 27/29
+----------
+train Loss: 0.3185 Acc: 0.8977
+val Loss: 0.1232 Acc: 0.9611
+Epoch 28/29
+----------
+train Loss: 0.3222 Acc: 0.8955
+val Loss: 0.1232 Acc: 0.9613
+Epoch 29/29
+----------
+train Loss: 0.3221 Acc: 0.8956
+val Loss: 0.1232 Acc: 0.9613
+                                                    precision    recall  f1-score   support
+
+                                Apple___Apple_scab       0.98      0.90      0.94        63
+                                 Apple___Black_rot       0.95      1.00      0.98        63
+                          Apple___Cedar_apple_rust       1.00      0.96      0.98        28
+                                   Apple___healthy       0.98      0.94      0.96       165
+                               Blueberry___healthy       0.96      1.00      0.98       151
+          Cherry_(including_sour)___Powdery_mildew       0.99      0.98      0.99       106
+                 Cherry_(including_sour)___healthy       0.99      1.00      0.99        86
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot       0.92      0.92      0.92        52
+                       Corn_(maize)___Common_rust_       1.00      1.00      1.00       120
+               Corn_(maize)___Northern_Leaf_Blight       0.96      0.96      0.96        99
+                            Corn_(maize)___healthy       1.00      1.00      1.00       117
+                                 Grape___Black_rot       0.98      0.99      0.99       118
+                      Grape___Esca_(Black_Measles)       0.99      0.99      0.99       139
+        Grape___Leaf_blight_(Isariopsis_Leaf_Spot)       1.00      1.00      1.00       108
+                                   Grape___healthy       1.00      1.00      1.00        43
+          Orange___Haunglongbing_(Citrus_greening)       1.00      1.00      1.00       551
+                            Peach___Bacterial_spot       0.99      1.00      1.00       230
+                                   Peach___healthy       0.97      0.97      0.97        36
+                     Pepper,_bell___Bacterial_spot       0.98      0.97      0.97       100
+                            Pepper,_bell___healthy       0.97      1.00      0.99       148
+                             Potato___Early_blight       1.00      0.98      0.99       100
+                              Potato___Late_blight       0.97      0.92      0.94       100
+                                  Potato___healthy       0.75      0.94      0.83        16
+                               Raspberry___healthy       1.00      1.00      1.00        38
+                                 Soybean___healthy       1.00      1.00      1.00       509
+                           Squash___Powdery_mildew       1.00      1.00      1.00       184
+                          Strawberry___Leaf_scorch       0.99      0.98      0.99       111
+                              Strawberry___healthy       1.00      0.93      0.97        46
+                           Tomato___Bacterial_spot       0.98      0.92      0.95       213
+                             Tomato___Early_blight       0.86      0.80      0.83       100
+                              Tomato___Late_blight       0.94      0.90      0.92       191
+                                Tomato___Leaf_Mold       0.86      0.93      0.89        96
+                       Tomato___Septoria_leaf_spot       0.94      0.90      0.92       178
+     Tomato___Spider_mites Two-spotted_spider_mite       0.87      0.96      0.91       168
+                              Tomato___Target_Spot       0.90      0.87      0.88       141
+            Tomato___Tomato_Yellow_Leaf_Curl_Virus       0.99      1.00      0.99       536
+                      Tomato___Tomato_mosaic_virus       0.77      0.95      0.85        38
+                                  Tomato___healthy       0.95      0.99      0.97       160
+
+                                          accuracy                           0.97      5448
+                                         macro avg       0.96      0.96      0.96      5448
+                                      weighted avg       0.97      0.97      0.97      5448
+

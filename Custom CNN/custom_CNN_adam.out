@@ -1,0 +1,199 @@
+Dataset Loaded
+Training Started
+Epoch 1/50 - Train loss: 2.3262, Validation loss: 1.1878
+Validation loss decreased (inf --> 1.187816). Saving model...
+Training Started
+Epoch 2/50 - Train loss: 1.5478, Validation loss: 0.8600
+Validation loss decreased (1.187816 --> 0.860021). Saving model...
+Training Started
+Epoch 3/50 - Train loss: 1.2056, Validation loss: 0.6478
+Validation loss decreased (0.860021 --> 0.647821). Saving model...
+Training Started
+Epoch 4/50 - Train loss: 0.9723, Validation loss: 0.5344
+Validation loss decreased (0.647821 --> 0.534395). Saving model...
+Training Started
+Epoch 5/50 - Train loss: 0.8004, Validation loss: 0.4494
+Validation loss decreased (0.534395 --> 0.449431). Saving model...
+Training Started
+Epoch 6/50 - Train loss: 0.6796, Validation loss: 0.3159
+Validation loss decreased (0.449431 --> 0.315857). Saving model...
+Training Started
+Epoch 7/50 - Train loss: 0.5850, Validation loss: 0.3094
+Validation loss decreased (0.315857 --> 0.309401). Saving model...
+Training Started
+Epoch 8/50 - Train loss: 0.5055, Validation loss: 0.2745
+Validation loss decreased (0.309401 --> 0.274451). Saving model...
+Training Started
+Epoch 9/50 - Train loss: 0.4455, Validation loss: 0.1987
+Validation loss decreased (0.274451 --> 0.198650). Saving model...
+Training Started
+Epoch 10/50 - Train loss: 0.3944, Validation loss: 0.2630
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 11/50 - Train loss: 0.3549, Validation loss: 0.1672
+Validation loss decreased (0.198650 --> 0.167191). Saving model...
+Training Started
+Epoch 12/50 - Train loss: 0.3174, Validation loss: 0.1469
+Validation loss decreased (0.167191 --> 0.146870). Saving model...
+Training Started
+Epoch 13/50 - Train loss: 0.2785, Validation loss: 0.1354
+Validation loss decreased (0.146870 --> 0.135361). Saving model...
+Training Started
+Epoch 14/50 - Train loss: 0.2524, Validation loss: 0.1111
+Validation loss decreased (0.135361 --> 0.111108). Saving model...
+Training Started
+Epoch 15/50 - Train loss: 0.2339, Validation loss: 0.1395
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 16/50 - Train loss: 0.2170, Validation loss: 0.1026
+Validation loss decreased (0.111108 --> 0.102554). Saving model...
+Training Started
+Epoch 17/50 - Train loss: 0.2064, Validation loss: 0.1480
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 18/50 - Train loss: 0.1924, Validation loss: 0.1192
+EarlyStopping counter: 2 out of 5
+Training Started
+Epoch 19/50 - Train loss: 0.1773, Validation loss: 0.1032
+EarlyStopping counter: 3 out of 5
+Training Started
+Epoch 20/50 - Train loss: 0.1705, Validation loss: 0.0998
+Validation loss decreased (0.102554 --> 0.099779). Saving model...
+Training Started
+Epoch 21/50 - Train loss: 0.1691, Validation loss: 0.0681
+Validation loss decreased (0.099779 --> 0.068101). Saving model...
+Training Started
+Epoch 22/50 - Train loss: 0.1572, Validation loss: 0.1031
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 23/50 - Train loss: 0.1555, Validation loss: 0.1148
+EarlyStopping counter: 2 out of 5
+Training Started
+Epoch 24/50 - Train loss: 0.1529, Validation loss: 0.0896
+EarlyStopping counter: 3 out of 5
+Training Started
+Epoch 25/50 - Train loss: 0.1453, Validation loss: 0.0703
+EarlyStopping counter: 4 out of 5
+Training Started
+Epoch 26/50 - Train loss: 0.1361, Validation loss: 0.0631
+Validation loss decreased (0.068101 --> 0.063057). Saving model...
+Training Started
+Epoch 27/50 - Train loss: 0.1334, Validation loss: 0.0923
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 28/50 - Train loss: 0.1350, Validation loss: 0.0982
+EarlyStopping counter: 2 out of 5
+Training Started
+Epoch 29/50 - Train loss: 0.1305, Validation loss: 0.0727
+EarlyStopping counter: 3 out of 5
+Training Started
+Epoch 30/50 - Train loss: 0.1328, Validation loss: 0.0602
+Validation loss decreased (0.063057 --> 0.060195). Saving model...
+Training Started
+Epoch 31/50 - Train loss: 0.1208, Validation loss: 0.0658
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 32/50 - Train loss: 0.1235, Validation loss: 0.0644
+EarlyStopping counter: 2 out of 5
+Training Started
+Epoch 33/50 - Train loss: 0.1159, Validation loss: 0.0600
+Validation loss decreased (0.060195 --> 0.059978). Saving model...
+Training Started
+Epoch 34/50 - Train loss: 0.1135, Validation loss: 0.0720
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 35/50 - Train loss: 0.1211, Validation loss: 0.0872
+EarlyStopping counter: 2 out of 5
+Training Started
+Epoch 36/50 - Train loss: 0.1085, Validation loss: 0.0612
+EarlyStopping counter: 3 out of 5
+Training Started
+Epoch 37/50 - Train loss: 0.1138, Validation loss: 0.0647
+EarlyStopping counter: 4 out of 5
+Training Started
+Epoch 38/50 - Train loss: 0.1122, Validation loss: 0.0554
+Validation loss decreased (0.059978 --> 0.055374). Saving model...
+Training Started
+Epoch 39/50 - Train loss: 0.1095, Validation loss: 0.0521
+Validation loss decreased (0.055374 --> 0.052132). Saving model...
+Training Started
+Epoch 40/50 - Train loss: 0.1022, Validation loss: 0.0508
+Validation loss decreased (0.052132 --> 0.050755). Saving model...
+Training Started
+Epoch 41/50 - Train loss: 0.1102, Validation loss: 0.0486
+Validation loss decreased (0.050755 --> 0.048565). Saving model...
+Training Started
+Epoch 42/50 - Train loss: 0.1027, Validation loss: 0.0662
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 43/50 - Train loss: 0.0977, Validation loss: 0.0815
+EarlyStopping counter: 2 out of 5
+Training Started
+Epoch 44/50 - Train loss: 0.1057, Validation loss: 0.0407
+Validation loss decreased (0.048565 --> 0.040679). Saving model...
+Training Started
+Epoch 45/50 - Train loss: 0.1008, Validation loss: 0.0470
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 46/50 - Train loss: 0.1007, Validation loss: 0.0489
+EarlyStopping counter: 2 out of 5
+Training Started
+Epoch 47/50 - Train loss: 0.1051, Validation loss: 0.0458
+EarlyStopping counter: 3 out of 5
+Training Started
+Epoch 48/50 - Train loss: 0.0999, Validation loss: 0.0371
+Validation loss decreased (0.040679 --> 0.037107). Saving model...
+Training Started
+Epoch 49/50 - Train loss: 0.0957, Validation loss: 0.0526
+EarlyStopping counter: 1 out of 5
+Training Started
+Epoch 50/50 - Train loss: 0.0911, Validation loss: 0.0525
+EarlyStopping counter: 2 out of 5
+Training Complete
+Test Loss: 0.0344
+Test Accuracy: 0.9892
+                                                    precision    recall  f1-score   support
+
+                                Apple___Apple_scab       1.00      0.95      0.98        63
+                                 Apple___Black_rot       1.00      0.98      0.99        63
+                          Apple___Cedar_apple_rust       1.00      1.00      1.00        28
+                                   Apple___healthy       1.00      1.00      1.00       165
+                               Blueberry___healthy       0.98      1.00      0.99       151
+          Cherry_(including_sour)___Powdery_mildew       1.00      0.99      1.00       106
+                 Cherry_(including_sour)___healthy       1.00      1.00      1.00        86
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot       0.94      0.94      0.94        52
+                       Corn_(maize)___Common_rust_       1.00      1.00      1.00       120
+               Corn_(maize)___Northern_Leaf_Blight       0.97      0.97      0.97        99
+                            Corn_(maize)___healthy       1.00      0.99      1.00       117
+                                 Grape___Black_rot       1.00      1.00      1.00       118
+                      Grape___Esca_(Black_Measles)       1.00      1.00      1.00       139
+        Grape___Leaf_blight_(Isariopsis_Leaf_Spot)       1.00      1.00      1.00       108
+                                   Grape___healthy       1.00      1.00      1.00        43
+          Orange___Haunglongbing_(Citrus_greening)       1.00      1.00      1.00       551
+                            Peach___Bacterial_spot       0.98      1.00      0.99       230
+                                   Peach___healthy       0.97      1.00      0.99        36
+                     Pepper,_bell___Bacterial_spot       0.99      0.99      0.99       100
+                            Pepper,_bell___healthy       0.99      0.99      0.99       148
+                             Potato___Early_blight       1.00      0.99      0.99       100
+                              Potato___Late_blight       0.95      0.99      0.97       100
+                                  Potato___healthy       1.00      0.94      0.97        16
+                               Raspberry___healthy       0.97      1.00      0.99        38
+                                 Soybean___healthy       1.00      1.00      1.00       509
+                           Squash___Powdery_mildew       1.00      1.00      1.00       184
+                          Strawberry___Leaf_scorch       1.00      1.00      1.00       111
+                              Strawberry___healthy       1.00      0.98      0.99        46
+                           Tomato___Bacterial_spot       1.00      0.97      0.98       213
+                             Tomato___Early_blight       0.95      0.95      0.95       100
+                              Tomato___Late_blight       0.99      0.92      0.95       191
+                                Tomato___Leaf_Mold       1.00      0.97      0.98        96
+                       Tomato___Septoria_leaf_spot       0.97      0.99      0.98       178
+     Tomato___Spider_mites Two-spotted_spider_mite       0.94      1.00      0.97       168
+                              Tomato___Target_Spot       0.96      0.92      0.94       141
+            Tomato___Tomato_Yellow_Leaf_Curl_Virus       1.00      1.00      1.00       536
+                      Tomato___Tomato_mosaic_virus       0.93      1.00      0.96        38
+                                  Tomato___healthy       0.99      1.00      1.00       160
+
+                                          accuracy                           0.99      5448
+                                         macro avg       0.99      0.99      0.99      5448
+                                      weighted avg       0.99      0.99      0.99      5448
+

@@ -1,0 +1,242 @@
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+[31mPlease check your arguments if you have upgraded adabelief-pytorch from version 0.0.5.
+[31mModifications to default arguments:
+[31m                           eps  weight_decouple    rectify
+-----------------------  -----  -----------------  ---------
+adabelief-pytorch=0.0.5  1e-08  False              False
+>=0.1.0 (Current 0.2.0)  1e-16  True               True
+[34mSGD better than Adam (e.g. CNN for Image Classification)    Adam better than SGD (e.g. Transformer, GAN)
+----------------------------------------------------------  ----------------------------------------------
+Recommended eps = 1e-8                                      Recommended eps = 1e-16
+[34mFor a complete table of recommended hyperparameters, see
+[34mhttps://github.com/juntang-zhuang/Adabelief-Optimizer
+[32mYou can disable the log message by setting "print_change_log = False", though it is recommended to keep as a reminder.
+[0m
+Weight decoupling enabled in AdaBelief
+Rectification enabled in AdaBelief
+[31mPlease check your arguments if you have upgraded adabelief-pytorch from version 0.0.5.
+[31mModifications to default arguments:
+[31m                           eps  weight_decouple    rectify
+-----------------------  -----  -----------------  ---------
+adabelief-pytorch=0.0.5  1e-08  False              False
+>=0.1.0 (Current 0.2.0)  1e-16  True               True
+[34mSGD better than Adam (e.g. CNN for Image Classification)    Adam better than SGD (e.g. Transformer, GAN)
+----------------------------------------------------------  ----------------------------------------------
+Recommended eps = 1e-8                                      Recommended eps = 1e-16
+[34mFor a complete table of recommended hyperparameters, see
+[34mhttps://github.com/juntang-zhuang/Adabelief-Optimizer
+[32mYou can disable the log message by setting "print_change_log = False", though it is recommended to keep as a reminder.
+[0m
+Weight decoupling enabled in AdaBelief
+Training Started for Model 1
+Epoch 1/50 => Train loss: 0.7112, Train accuracy: 0.7979, Validation loss: 0.1097, Validation accuracy: 0.9611
+Validation loss decreased (inf --> 0.109731). Saving model...
+Epoch 2/50 => Train loss: 0.3095, Train accuracy: 0.9034, Validation loss: 0.1110, Validation accuracy: 0.9628
+EarlyStopping counter: 1 out of 10
+Epoch 3/50 => Train loss: 0.2428, Train accuracy: 0.9217, Validation loss: 0.0571, Validation accuracy: 0.9796
+Validation loss decreased (0.109731 --> 0.057132). Saving model...
+Epoch 4/50 => Train loss: 0.2163, Train accuracy: 0.9297, Validation loss: 0.0646, Validation accuracy: 0.9773
+EarlyStopping counter: 1 out of 10
+Epoch 5/50 => Train loss: 0.1783, Train accuracy: 0.9426, Validation loss: 0.0781, Validation accuracy: 0.9761
+EarlyStopping counter: 2 out of 10
+Epoch 6/50 => Train loss: 0.1789, Train accuracy: 0.9426, Validation loss: 0.0543, Validation accuracy: 0.9790
+Validation loss decreased (0.057132 --> 0.054283). Saving model...
+Epoch 7/50 => Train loss: 0.1581, Train accuracy: 0.9493, Validation loss: 0.0341, Validation accuracy: 0.9882
+Validation loss decreased (0.054283 --> 0.034137). Saving model...
+Epoch 8/50 => Train loss: 0.0985, Train accuracy: 0.9676, Validation loss: 0.0217, Validation accuracy: 0.9924
+Validation loss decreased (0.034137 --> 0.021742). Saving model...
+Epoch 9/50 => Train loss: 0.0804, Train accuracy: 0.9739, Validation loss: 0.0171, Validation accuracy: 0.9936
+Validation loss decreased (0.021742 --> 0.017103). Saving model...
+Epoch 10/50 => Train loss: 0.0704, Train accuracy: 0.9767, Validation loss: 0.0158, Validation accuracy: 0.9948
+Validation loss decreased (0.017103 --> 0.015802). Saving model...
+Epoch 11/50 => Train loss: 0.0714, Train accuracy: 0.9763, Validation loss: 0.0163, Validation accuracy: 0.9945
+EarlyStopping counter: 1 out of 10
+Epoch 12/50 => Train loss: 0.0639, Train accuracy: 0.9792, Validation loss: 0.0156, Validation accuracy: 0.9950
+Validation loss decreased (0.015802 --> 0.015551). Saving model...
+Epoch 13/50 => Train loss: 0.0629, Train accuracy: 0.9794, Validation loss: 0.0156, Validation accuracy: 0.9937
+EarlyStopping counter: 1 out of 10
+Epoch 14/50 => Train loss: 0.0619, Train accuracy: 0.9796, Validation loss: 0.0140, Validation accuracy: 0.9936
+Validation loss decreased (0.015551 --> 0.013977). Saving model...
+Epoch 15/50 => Train loss: 0.0585, Train accuracy: 0.9805, Validation loss: 0.0140, Validation accuracy: 0.9941
+EarlyStopping counter: 1 out of 10
+Epoch 16/50 => Train loss: 0.0617, Train accuracy: 0.9798, Validation loss: 0.0139, Validation accuracy: 0.9945
+Validation loss decreased (0.013977 --> 0.013876). Saving model...
+Epoch 17/50 => Train loss: 0.0592, Train accuracy: 0.9806, Validation loss: 0.0140, Validation accuracy: 0.9950
+EarlyStopping counter: 1 out of 10
+Epoch 18/50 => Train loss: 0.0565, Train accuracy: 0.9820, Validation loss: 0.0124, Validation accuracy: 0.9947
+Validation loss decreased (0.013876 --> 0.012415). Saving model...
+Epoch 19/50 => Train loss: 0.0596, Train accuracy: 0.9803, Validation loss: 0.0139, Validation accuracy: 0.9941
+EarlyStopping counter: 1 out of 10
+Epoch 20/50 => Train loss: 0.0598, Train accuracy: 0.9799, Validation loss: 0.0138, Validation accuracy: 0.9947
+EarlyStopping counter: 2 out of 10
+Epoch 21/50 => Train loss: 0.0577, Train accuracy: 0.9810, Validation loss: 0.0121, Validation accuracy: 0.9950
+Validation loss decreased (0.012415 --> 0.012137). Saving model...
+Epoch 22/50 => Train loss: 0.0610, Train accuracy: 0.9800, Validation loss: 0.0123, Validation accuracy: 0.9947
+EarlyStopping counter: 1 out of 10
+Epoch 23/50 => Train loss: 0.0561, Train accuracy: 0.9812, Validation loss: 0.0127, Validation accuracy: 0.9941
+EarlyStopping counter: 2 out of 10
+Epoch 24/50 => Train loss: 0.0582, Train accuracy: 0.9811, Validation loss: 0.0118, Validation accuracy: 0.9945
+Validation loss decreased (0.012137 --> 0.011759). Saving model...
+Epoch 25/50 => Train loss: 0.0566, Train accuracy: 0.9809, Validation loss: 0.0132, Validation accuracy: 0.9950
+EarlyStopping counter: 1 out of 10
+Epoch 26/50 => Train loss: 0.0553, Train accuracy: 0.9820, Validation loss: 0.0125, Validation accuracy: 0.9948
+EarlyStopping counter: 2 out of 10
+Epoch 27/50 => Train loss: 0.0584, Train accuracy: 0.9810, Validation loss: 0.0121, Validation accuracy: 0.9948
+EarlyStopping counter: 3 out of 10
+Epoch 28/50 => Train loss: 0.0574, Train accuracy: 0.9810, Validation loss: 0.0127, Validation accuracy: 0.9948
+EarlyStopping counter: 4 out of 10
+Epoch 29/50 => Train loss: 0.0566, Train accuracy: 0.9816, Validation loss: 0.0129, Validation accuracy: 0.9947
+EarlyStopping counter: 5 out of 10
+Epoch 30/50 => Train loss: 0.0583, Train accuracy: 0.9810, Validation loss: 0.0126, Validation accuracy: 0.9948
+EarlyStopping counter: 6 out of 10
+Epoch 31/50 => Train loss: 0.0567, Train accuracy: 0.9812, Validation loss: 0.0142, Validation accuracy: 0.9945
+EarlyStopping counter: 7 out of 10
+Epoch 32/50 => Train loss: 0.0557, Train accuracy: 0.9817, Validation loss: 0.0135, Validation accuracy: 0.9945
+EarlyStopping counter: 8 out of 10
+Epoch 33/50 => Train loss: 0.0522, Train accuracy: 0.9830, Validation loss: 0.0126, Validation accuracy: 0.9937
+EarlyStopping counter: 9 out of 10
+Epoch 34/50 => Train loss: 0.0596, Train accuracy: 0.9808, Validation loss: 0.0134, Validation accuracy: 0.9947
+EarlyStopping counter: 10 out of 10
+Early stopping triggered
+Training Complete for Model 1
+Training Started for Model 2
+Epoch 1/50 => Train loss: 0.5567, Train accuracy: 0.8322, Validation loss: 0.1209, Validation accuracy: 0.9582
+Validation loss decreased (inf --> 0.120895). Saving model...
+Epoch 2/50 => Train loss: 0.2657, Train accuracy: 0.9159, Validation loss: 0.0817, Validation accuracy: 0.9702
+Validation loss decreased (0.120895 --> 0.081657). Saving model...
+Epoch 3/50 => Train loss: 0.2172, Train accuracy: 0.9309, Validation loss: 0.0765, Validation accuracy: 0.9720
+Validation loss decreased (0.081657 --> 0.076473). Saving model...
+Epoch 4/50 => Train loss: 0.1828, Train accuracy: 0.9414, Validation loss: 0.0406, Validation accuracy: 0.9869
+Validation loss decreased (0.076473 --> 0.040556). Saving model...
+Epoch 5/50 => Train loss: 0.1570, Train accuracy: 0.9482, Validation loss: 0.0397, Validation accuracy: 0.9854
+Validation loss decreased (0.040556 --> 0.039734). Saving model...
+Epoch 6/50 => Train loss: 0.1449, Train accuracy: 0.9540, Validation loss: 0.0320, Validation accuracy: 0.9889
+Validation loss decreased (0.039734 --> 0.032017). Saving model...
+Epoch 7/50 => Train loss: 0.1312, Train accuracy: 0.9569, Validation loss: 0.0445, Validation accuracy: 0.9838
+EarlyStopping counter: 1 out of 10
+Epoch 8/50 => Train loss: 0.0891, Train accuracy: 0.9713, Validation loss: 0.0163, Validation accuracy: 0.9939
+Validation loss decreased (0.032017 --> 0.016299). Saving model...
+Epoch 9/50 => Train loss: 0.0694, Train accuracy: 0.9779, Validation loss: 0.0164, Validation accuracy: 0.9937
+EarlyStopping counter: 1 out of 10
+Epoch 10/50 => Train loss: 0.0664, Train accuracy: 0.9783, Validation loss: 0.0167, Validation accuracy: 0.9937
+EarlyStopping counter: 2 out of 10
+Epoch 11/50 => Train loss: 0.0621, Train accuracy: 0.9795, Validation loss: 0.0171, Validation accuracy: 0.9939
+EarlyStopping counter: 3 out of 10
+Epoch 12/50 => Train loss: 0.0580, Train accuracy: 0.9810, Validation loss: 0.0123, Validation accuracy: 0.9948
+Validation loss decreased (0.016299 --> 0.012254). Saving model...
+Epoch 13/50 => Train loss: 0.0572, Train accuracy: 0.9814, Validation loss: 0.0123, Validation accuracy: 0.9954
+EarlyStopping counter: 1 out of 10
+Epoch 14/50 => Train loss: 0.0563, Train accuracy: 0.9809, Validation loss: 0.0132, Validation accuracy: 0.9954
+EarlyStopping counter: 2 out of 10
+Epoch 15/50 => Train loss: 0.0546, Train accuracy: 0.9817, Validation loss: 0.0095, Validation accuracy: 0.9967
+Validation loss decreased (0.012254 --> 0.009496). Saving model...
+Epoch 16/50 => Train loss: 0.0511, Train accuracy: 0.9833, Validation loss: 0.0101, Validation accuracy: 0.9961
+EarlyStopping counter: 1 out of 10
+Epoch 17/50 => Train loss: 0.0524, Train accuracy: 0.9822, Validation loss: 0.0117, Validation accuracy: 0.9956
+EarlyStopping counter: 2 out of 10
+Epoch 18/50 => Train loss: 0.0533, Train accuracy: 0.9828, Validation loss: 0.0107, Validation accuracy: 0.9958
+EarlyStopping counter: 3 out of 10
+Epoch 19/50 => Train loss: 0.0520, Train accuracy: 0.9832, Validation loss: 0.0114, Validation accuracy: 0.9956
+EarlyStopping counter: 4 out of 10
+Epoch 20/50 => Train loss: 0.0513, Train accuracy: 0.9837, Validation loss: 0.0111, Validation accuracy: 0.9959
+EarlyStopping counter: 5 out of 10
+Epoch 21/50 => Train loss: 0.0511, Train accuracy: 0.9831, Validation loss: 0.0092, Validation accuracy: 0.9971
+Validation loss decreased (0.009496 --> 0.009193). Saving model...
+Epoch 22/50 => Train loss: 0.0493, Train accuracy: 0.9842, Validation loss: 0.0101, Validation accuracy: 0.9963
+EarlyStopping counter: 1 out of 10
+Epoch 23/50 => Train loss: 0.0480, Train accuracy: 0.9836, Validation loss: 0.0089, Validation accuracy: 0.9963
+Validation loss decreased (0.009193 --> 0.008942). Saving model...
+Epoch 24/50 => Train loss: 0.0492, Train accuracy: 0.9837, Validation loss: 0.0108, Validation accuracy: 0.9958
+EarlyStopping counter: 1 out of 10
+Epoch 25/50 => Train loss: 0.0490, Train accuracy: 0.9839, Validation loss: 0.0114, Validation accuracy: 0.9961
+EarlyStopping counter: 2 out of 10
+Epoch 26/50 => Train loss: 0.0495, Train accuracy: 0.9835, Validation loss: 0.0091, Validation accuracy: 0.9963
+EarlyStopping counter: 3 out of 10
+Epoch 27/50 => Train loss: 0.0477, Train accuracy: 0.9843, Validation loss: 0.0105, Validation accuracy: 0.9969
+EarlyStopping counter: 4 out of 10
+Epoch 28/50 => Train loss: 0.0505, Train accuracy: 0.9833, Validation loss: 0.0104, Validation accuracy: 0.9959
+EarlyStopping counter: 5 out of 10
+Epoch 29/50 => Train loss: 0.0482, Train accuracy: 0.9842, Validation loss: 0.0095, Validation accuracy: 0.9954
+EarlyStopping counter: 6 out of 10
+Epoch 30/50 => Train loss: 0.0474, Train accuracy: 0.9849, Validation loss: 0.0111, Validation accuracy: 0.9958
+EarlyStopping counter: 7 out of 10
+Epoch 31/50 => Train loss: 0.0471, Train accuracy: 0.9844, Validation loss: 0.0091, Validation accuracy: 0.9965
+EarlyStopping counter: 8 out of 10
+Epoch 32/50 => Train loss: 0.0514, Train accuracy: 0.9826, Validation loss: 0.0095, Validation accuracy: 0.9959
+EarlyStopping counter: 9 out of 10
+Epoch 33/50 => Train loss: 0.0486, Train accuracy: 0.9843, Validation loss: 0.0087, Validation accuracy: 0.9969
+Validation loss decreased (0.008942 --> 0.008737). Saving model...
+Epoch 34/50 => Train loss: 0.0459, Train accuracy: 0.9843, Validation loss: 0.0106, Validation accuracy: 0.9956
+EarlyStopping counter: 1 out of 10
+Epoch 35/50 => Train loss: 0.0500, Train accuracy: 0.9838, Validation loss: 0.0097, Validation accuracy: 0.9965
+EarlyStopping counter: 2 out of 10
+Epoch 36/50 => Train loss: 0.0484, Train accuracy: 0.9841, Validation loss: 0.0121, Validation accuracy: 0.9954
+EarlyStopping counter: 3 out of 10
+Epoch 37/50 => Train loss: 0.0489, Train accuracy: 0.9836, Validation loss: 0.0094, Validation accuracy: 0.9965
+EarlyStopping counter: 4 out of 10
+Epoch 38/50 => Train loss: 0.0481, Train accuracy: 0.9840, Validation loss: 0.0097, Validation accuracy: 0.9961
+EarlyStopping counter: 5 out of 10
+Epoch 39/50 => Train loss: 0.0473, Train accuracy: 0.9851, Validation loss: 0.0092, Validation accuracy: 0.9965
+EarlyStopping counter: 6 out of 10
+Epoch 40/50 => Train loss: 0.0487, Train accuracy: 0.9840, Validation loss: 0.0090, Validation accuracy: 0.9963
+EarlyStopping counter: 7 out of 10
+Epoch 41/50 => Train loss: 0.0462, Train accuracy: 0.9847, Validation loss: 0.0103, Validation accuracy: 0.9961
+EarlyStopping counter: 8 out of 10
+Epoch 42/50 => Train loss: 0.0477, Train accuracy: 0.9842, Validation loss: 0.0103, Validation accuracy: 0.9959
+EarlyStopping counter: 9 out of 10
+Epoch 43/50 => Train loss: 0.0471, Train accuracy: 0.9843, Validation loss: 0.0103, Validation accuracy: 0.9963
+EarlyStopping counter: 10 out of 10
+Early stopping triggered
+Training Complete for Model 2
+Validation Accuracy: 99.74%
+Validation Loss: 0.0081
+Test Accuracy: 99.82%
+Test Loss: 0.0073
+
+Test Set Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        63
+           1       1.00      1.00      1.00        63
+           2       1.00      1.00      1.00        28
+           3       1.00      1.00      1.00       165
+           4       1.00      1.00      1.00       151
+           5       1.00      1.00      1.00       106
+           6       1.00      1.00      1.00        86
+           7       0.94      0.96      0.95        52
+           8       1.00      1.00      1.00       120
+           9       0.98      0.97      0.97        99
+          10       1.00      1.00      1.00       117
+          11       1.00      1.00      1.00       118
+          12       1.00      1.00      1.00       139
+          13       1.00      1.00      1.00       108
+          14       1.00      1.00      1.00        43
+          15       1.00      1.00      1.00       551
+          16       1.00      1.00      1.00       230
+          17       1.00      1.00      1.00        36
+          18       1.00      1.00      1.00       100
+          19       1.00      1.00      1.00       148
+          20       1.00      1.00      1.00       100
+          21       1.00      1.00      1.00       100
+          22       1.00      0.94      0.97        16
+          23       1.00      1.00      1.00        38
+          24       1.00      1.00      1.00       509
+          25       1.00      1.00      1.00       184
+          26       1.00      1.00      1.00       111
+          27       1.00      1.00      1.00        46
+          28       1.00      1.00      1.00       213
+          29       1.00      0.99      0.99       100
+          30       0.99      0.99      0.99       191
+          31       1.00      1.00      1.00        96
+          32       1.00      1.00      1.00       178
+          33       0.99      0.99      0.99       168
+          34       0.99      0.99      0.99       141
+          35       1.00      1.00      1.00       536
+          36       1.00      1.00      1.00        38
+          37       0.99      1.00      1.00       160
+
+    accuracy                           1.00      5448
+   macro avg       1.00      1.00      1.00      5448
+weighted avg       1.00      1.00      1.00      5448
+

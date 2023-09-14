@@ -1,0 +1,131 @@
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=DenseNet121_Weights.IMAGENET1K_V1`. You can also use `weights=DenseNet121_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+[31mPlease check your arguments if you have upgraded adabelief-pytorch from version 0.0.5.
+[31mModifications to default arguments:
+[31m                           eps  weight_decouple    rectify
+-----------------------  -----  -----------------  ---------
+adabelief-pytorch=0.0.5  1e-08  False              False
+>=0.1.0 (Current 0.2.0)  1e-16  True               True
+[34mSGD better than Adam (e.g. CNN for Image Classification)    Adam better than SGD (e.g. Transformer, GAN)
+----------------------------------------------------------  ----------------------------------------------
+Recommended eps = 1e-8                                      Recommended eps = 1e-16
+[34mFor a complete table of recommended hyperparameters, see
+[34mhttps://github.com/juntang-zhuang/Adabelief-Optimizer
+[32mYou can disable the log message by setting "print_change_log = False", though it is recommended to keep as a reminder.
+[0m
+Weight decoupling enabled in AdaBelief
+Rectification enabled in AdaBelief
+Training Started
+Epoch 1/50 => Train loss: 0.2879, Train accuracy: 0.9281, Validation loss: 0.0889, Validation accuracy: 0.9690
+Validation loss decreased (inf --> 0.088903). Saving model...
+Epoch 2/50 => Train loss: 0.0654, Train accuracy: 0.9791, Validation loss: 0.0681, Validation accuracy: 0.9772
+Validation loss decreased (0.088903 --> 0.068071). Saving model...
+Epoch 3/50 => Train loss: 0.0523, Train accuracy: 0.9837, Validation loss: 0.0980, Validation accuracy: 0.9761
+EarlyStopping counter: 1 out of 10
+Epoch 4/50 => Train loss: 0.0432, Train accuracy: 0.9864, Validation loss: 0.0562, Validation accuracy: 0.9818
+Validation loss decreased (0.068071 --> 0.056181). Saving model...
+Epoch 5/50 => Train loss: 0.0358, Train accuracy: 0.9882, Validation loss: 0.0422, Validation accuracy: 0.9847
+Validation loss decreased (0.056181 --> 0.042212). Saving model...
+Epoch 6/50 => Train loss: 0.0207, Train accuracy: 0.9932, Validation loss: 0.0513, Validation accuracy: 0.9847
+EarlyStopping counter: 1 out of 10
+Epoch 7/50 => Train loss: 0.0313, Train accuracy: 0.9905, Validation loss: 0.0488, Validation accuracy: 0.9854
+EarlyStopping counter: 2 out of 10
+Epoch 8/50 => Train loss: 0.0058, Train accuracy: 0.9982, Validation loss: 0.0099, Validation accuracy: 0.9976
+Validation loss decreased (0.042212 --> 0.009932). Saving model...
+Epoch 9/50 => Train loss: 0.0024, Train accuracy: 0.9992, Validation loss: 0.0081, Validation accuracy: 0.9982
+Validation loss decreased (0.009932 --> 0.008101). Saving model...
+Epoch 10/50 => Train loss: 0.0012, Train accuracy: 0.9998, Validation loss: 0.0076, Validation accuracy: 0.9983
+Validation loss decreased (0.008101 --> 0.007626). Saving model...
+Epoch 11/50 => Train loss: 0.0013, Train accuracy: 0.9997, Validation loss: 0.0073, Validation accuracy: 0.9982
+Validation loss decreased (0.007626 --> 0.007346). Saving model...
+Epoch 12/50 => Train loss: 0.0009, Train accuracy: 0.9999, Validation loss: 0.0078, Validation accuracy: 0.9983
+EarlyStopping counter: 1 out of 10
+Epoch 13/50 => Train loss: 0.0008, Train accuracy: 0.9999, Validation loss: 0.0071, Validation accuracy: 0.9980
+Validation loss decreased (0.007346 --> 0.007120). Saving model...
+Epoch 14/50 => Train loss: 0.0007, Train accuracy: 0.9999, Validation loss: 0.0069, Validation accuracy: 0.9983
+Validation loss decreased (0.007120 --> 0.006947). Saving model...
+Epoch 15/50 => Train loss: 0.0007, Train accuracy: 0.9999, Validation loss: 0.0070, Validation accuracy: 0.9983
+EarlyStopping counter: 1 out of 10
+Epoch 16/50 => Train loss: 0.0006, Train accuracy: 1.0000, Validation loss: 0.0067, Validation accuracy: 0.9985
+Validation loss decreased (0.006947 --> 0.006741). Saving model...
+Epoch 17/50 => Train loss: 0.0005, Train accuracy: 0.9999, Validation loss: 0.0069, Validation accuracy: 0.9983
+EarlyStopping counter: 1 out of 10
+Epoch 18/50 => Train loss: 0.0005, Train accuracy: 1.0000, Validation loss: 0.0067, Validation accuracy: 0.9985
+Validation loss decreased (0.006741 --> 0.006658). Saving model...
+Epoch 19/50 => Train loss: 0.0005, Train accuracy: 1.0000, Validation loss: 0.0068, Validation accuracy: 0.9985
+EarlyStopping counter: 1 out of 10
+Epoch 20/50 => Train loss: 0.0006, Train accuracy: 1.0000, Validation loss: 0.0066, Validation accuracy: 0.9983
+Validation loss decreased (0.006658 --> 0.006596). Saving model...
+Epoch 21/50 => Train loss: 0.0006, Train accuracy: 0.9999, Validation loss: 0.0066, Validation accuracy: 0.9985
+EarlyStopping counter: 1 out of 10
+Epoch 22/50 => Train loss: 0.0005, Train accuracy: 1.0000, Validation loss: 0.0071, Validation accuracy: 0.9985
+EarlyStopping counter: 2 out of 10
+Epoch 23/50 => Train loss: 0.0006, Train accuracy: 0.9999, Validation loss: 0.0071, Validation accuracy: 0.9983
+EarlyStopping counter: 3 out of 10
+Epoch 24/50 => Train loss: 0.0005, Train accuracy: 0.9999, Validation loss: 0.0072, Validation accuracy: 0.9987
+EarlyStopping counter: 4 out of 10
+Epoch 25/50 => Train loss: 0.0007, Train accuracy: 0.9998, Validation loss: 0.0070, Validation accuracy: 0.9985
+EarlyStopping counter: 5 out of 10
+Epoch 26/50 => Train loss: 0.0006, Train accuracy: 0.9999, Validation loss: 0.0075, Validation accuracy: 0.9983
+EarlyStopping counter: 6 out of 10
+Epoch 27/50 => Train loss: 0.0005, Train accuracy: 0.9999, Validation loss: 0.0070, Validation accuracy: 0.9985
+EarlyStopping counter: 7 out of 10
+Epoch 28/50 => Train loss: 0.0005, Train accuracy: 0.9999, Validation loss: 0.0069, Validation accuracy: 0.9985
+EarlyStopping counter: 8 out of 10
+Epoch 29/50 => Train loss: 0.0005, Train accuracy: 1.0000, Validation loss: 0.0073, Validation accuracy: 0.9982
+EarlyStopping counter: 9 out of 10
+Epoch 30/50 => Train loss: 0.0006, Train accuracy: 0.9999, Validation loss: 0.0070, Validation accuracy: 0.9985
+EarlyStopping counter: 10 out of 10
+Early stopping triggered
+Training Complete
+Test Loss: 0.0049
+Test Accuracy: 0.9993
+                                                    precision    recall  f1-score   support
+
+                                Apple___Apple_scab       1.00      1.00      1.00        63
+                                 Apple___Black_rot       1.00      1.00      1.00        63
+                          Apple___Cedar_apple_rust       1.00      1.00      1.00        28
+                                   Apple___healthy       1.00      1.00      1.00       165
+                               Blueberry___healthy       1.00      1.00      1.00       151
+          Cherry_(including_sour)___Powdery_mildew       1.00      1.00      1.00       106
+                 Cherry_(including_sour)___healthy       1.00      1.00      1.00        86
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot       0.98      1.00      0.99        52
+                       Corn_(maize)___Common_rust_       1.00      1.00      1.00       120
+               Corn_(maize)___Northern_Leaf_Blight       1.00      0.99      0.99        99
+                            Corn_(maize)___healthy       1.00      1.00      1.00       117
+                                 Grape___Black_rot       1.00      1.00      1.00       118
+                      Grape___Esca_(Black_Measles)       1.00      1.00      1.00       139
+        Grape___Leaf_blight_(Isariopsis_Leaf_Spot)       1.00      1.00      1.00       108
+                                   Grape___healthy       1.00      1.00      1.00        43
+          Orange___Haunglongbing_(Citrus_greening)       1.00      1.00      1.00       551
+                            Peach___Bacterial_spot       1.00      1.00      1.00       230
+                                   Peach___healthy       1.00      1.00      1.00        36
+                     Pepper,_bell___Bacterial_spot       1.00      1.00      1.00       100
+                            Pepper,_bell___healthy       1.00      1.00      1.00       148
+                             Potato___Early_blight       1.00      1.00      1.00       100
+                              Potato___Late_blight       1.00      1.00      1.00       100
+                                  Potato___healthy       1.00      1.00      1.00        16
+                               Raspberry___healthy       1.00      1.00      1.00        38
+                                 Soybean___healthy       1.00      1.00      1.00       509
+                           Squash___Powdery_mildew       1.00      1.00      1.00       184
+                          Strawberry___Leaf_scorch       1.00      1.00      1.00       111
+                              Strawberry___healthy       1.00      1.00      1.00        46
+                           Tomato___Bacterial_spot       1.00      1.00      1.00       213
+                             Tomato___Early_blight       1.00      0.99      0.99       100
+                              Tomato___Late_blight       1.00      0.99      1.00       191
+                                Tomato___Leaf_Mold       1.00      1.00      1.00        96
+                       Tomato___Septoria_leaf_spot       0.99      1.00      1.00       178
+     Tomato___Spider_mites Two-spotted_spider_mite       0.99      1.00      1.00       168
+                              Tomato___Target_Spot       1.00      0.99      1.00       141
+            Tomato___Tomato_Yellow_Leaf_Curl_Virus       1.00      1.00      1.00       536
+                      Tomato___Tomato_mosaic_virus       1.00      1.00      1.00        38
+                                  Tomato___healthy       0.99      1.00      1.00       160
+
+                                          accuracy                           1.00      5448
+                                         macro avg       1.00      1.00      1.00      5448
+                                      weighted avg       1.00      1.00      1.00      5448
+

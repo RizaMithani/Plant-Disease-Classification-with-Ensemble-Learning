@@ -1,0 +1,55 @@
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Validation Loss: 2.6892, Validation Accuracy: 0.9967
+Test Loss: 2.6877, Test Accuracy: 0.9982
+
+Test Set Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        63
+           1       1.00      1.00      1.00        63
+           2       1.00      1.00      1.00        28
+           3       1.00      1.00      1.00       165
+           4       0.99      1.00      1.00       151
+           5       1.00      1.00      1.00       106
+           6       1.00      1.00      1.00        86
+           7       0.94      0.98      0.96        52
+           8       1.00      1.00      1.00       120
+           9       0.99      0.97      0.98        99
+          10       1.00      1.00      1.00       117
+          11       1.00      1.00      1.00       118
+          12       1.00      1.00      1.00       139
+          13       1.00      1.00      1.00       108
+          14       1.00      1.00      1.00        43
+          15       1.00      1.00      1.00       551
+          16       1.00      1.00      1.00       230
+          17       1.00      1.00      1.00        36
+          18       1.00      1.00      1.00       100
+          19       1.00      1.00      1.00       148
+          20       1.00      1.00      1.00       100
+          21       1.00      1.00      1.00       100
+          22       1.00      0.94      0.97        16
+          23       1.00      1.00      1.00        38
+          24       1.00      1.00      1.00       509
+          25       1.00      1.00      1.00       184
+          26       1.00      1.00      1.00       111
+          27       1.00      1.00      1.00        46
+          28       1.00      1.00      1.00       213
+          29       1.00      0.97      0.98       100
+          30       0.99      0.99      0.99       191
+          31       1.00      1.00      1.00        96
+          32       1.00      1.00      1.00       178
+          33       1.00      0.99      1.00       168
+          34       0.98      1.00      0.99       141
+          35       1.00      1.00      1.00       536
+          36       1.00      1.00      1.00        38
+          37       0.99      1.00      1.00       160
+
+    accuracy                           1.00      5448
+   macro avg       1.00      1.00      1.00      5448
+weighted avg       1.00      1.00      1.00      5448
+

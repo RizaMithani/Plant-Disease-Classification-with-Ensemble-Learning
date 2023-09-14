@@ -1,0 +1,76 @@
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/cs/home/psxrm17/miniconda3/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to /cs/home/psxrm17/.cache/torch/hub/checkpoints/vgg16-397923af.pth
+  0%|          | 0.00/528M [00:00<?, ?B/s]  1%|          | 6.01M/528M [00:00<00:08, 62.0MB/s]  2%|▏         | 11.9M/528M [00:00<00:14, 38.5MB/s]  3%|▎         | 16.1M/528M [00:00<00:13, 40.1MB/s]  4%|▍         | 21.9M/528M [00:00<00:11, 46.8MB/s]  5%|▌         | 27.8M/528M [00:00<00:10, 50.7MB/s]  7%|▋         | 35.6M/528M [00:00<00:08, 60.3MB/s]  8%|▊         | 42.1M/528M [00:00<00:08, 62.7MB/s]  9%|▉         | 48.3M/528M [00:00<00:09, 53.5MB/s] 11%|█         | 55.6M/528M [00:01<00:08, 59.8MB/s] 12%|█▏        | 61.7M/528M [00:01<00:08, 58.2MB/s] 13%|█▎        | 68.8M/528M [00:01<00:07, 62.7MB/s] 15%|█▍        | 77.1M/528M [00:01<00:06, 68.2MB/s] 16%|█▌        | 83.8M/528M [00:01<00:07, 62.8MB/s] 17%|█▋        | 90.0M/528M [00:01<00:07, 63.3MB/s] 18%|█▊        | 96.5M/528M [00:01<00:06, 64.8MB/s] 19%|█▉        | 103M/528M [00:01<00:07, 63.3MB/s]  21%|██        | 110M/528M [00:01<00:06, 67.8MB/s] 22%|██▏       | 118M/528M [00:02<00:06, 69.9MB/s] 24%|██▎       | 124M/528M [00:02<00:06, 61.6MB/s] 25%|██▍       | 131M/528M [00:02<00:06, 65.3MB/s] 26%|██▋       | 140M/528M [00:02<00:05, 69.4MB/s] 28%|██▊       | 146M/528M [00:02<00:06, 62.5MB/s] 29%|██▉       | 153M/528M [00:02<00:06, 60.5MB/s] 31%|███       | 161M/528M [00:02<00:05, 67.9MB/s] 32%|███▏      | 168M/528M [00:02<00:05, 66.5MB/s] 33%|███▎      | 175M/528M [00:02<00:05, 70.7MB/s] 35%|███▍      | 183M/528M [00:03<00:04, 73.9MB/s] 36%|███▌      | 190M/528M [00:03<00:05, 70.6MB/s] 37%|███▋      | 197M/528M [00:03<00:05, 65.3MB/s] 39%|███▉      | 205M/528M [00:03<00:04, 68.9MB/s] 40%|████      | 212M/528M [00:03<00:05, 66.0MB/s] 41%|████▏     | 218M/528M [00:03<00:05, 59.8MB/s] 43%|████▎     | 226M/528M [00:03<00:04, 65.9MB/s] 44%|████▍     | 232M/528M [00:03<00:04, 65.7MB/s] 45%|████▌     | 239M/528M [00:03<00:04, 62.6MB/s] 46%|████▋     | 245M/528M [00:04<00:04, 60.7MB/s] 48%|████▊     | 251M/528M [00:04<00:04, 58.2MB/s] 49%|████▉     | 257M/528M [00:04<00:04, 61.2MB/s] 50%|█████     | 265M/528M [00:04<00:04, 65.8MB/s] 51%|█████▏    | 272M/528M [00:04<00:04, 66.9MB/s] 53%|█████▎    | 279M/528M [00:04<00:03, 69.4MB/s] 54%|█████▍    | 285M/528M [00:04<00:03, 65.0MB/s] 55%|█████▌    | 292M/528M [00:04<00:03, 66.7MB/s] 57%|█████▋    | 300M/528M [00:04<00:03, 69.6MB/s] 58%|█████▊    | 308M/528M [00:05<00:03, 74.0MB/s] 60%|█████▉    | 315M/528M [00:05<00:03, 61.9MB/s] 61%|██████    | 322M/528M [00:05<00:03, 65.1MB/s] 62%|██████▏   | 330M/528M [00:05<00:02, 69.9MB/s] 64%|██████▍   | 338M/528M [00:05<00:02, 73.2MB/s] 65%|██████▌   | 345M/528M [00:05<00:02, 68.5MB/s] 67%|██████▋   | 352M/528M [00:05<00:02, 67.7MB/s] 68%|██████▊   | 359M/528M [00:05<00:02, 70.4MB/s] 69%|██████▉   | 366M/528M [00:05<00:02, 70.2MB/s] 71%|███████   | 373M/528M [00:06<00:02, 71.3MB/s] 72%|███████▏  | 380M/528M [00:06<00:02, 70.5MB/s] 73%|███████▎  | 386M/528M [00:06<00:02, 70.3MB/s] 75%|███████▍  | 393M/528M [00:06<00:01, 70.8MB/s] 76%|███████▌  | 400M/528M [00:06<00:02, 64.9MB/s] 77%|███████▋  | 406M/528M [00:06<00:01, 65.1MB/s] 78%|███████▊  | 413M/528M [00:06<00:01, 64.2MB/s] 79%|███████▉  | 419M/528M [00:06<00:01, 58.3MB/s] 81%|████████  | 426M/528M [00:06<00:01, 61.6MB/s] 82%|████████▏ | 433M/528M [00:07<00:01, 64.9MB/s] 84%|████████▎ | 441M/528M [00:07<00:01, 70.7MB/s] 85%|████████▍ | 448M/528M [00:07<00:01, 72.7MB/s] 86%|████████▋ | 455M/528M [00:07<00:01, 65.4MB/s] 88%|████████▊ | 462M/528M [00:07<00:01, 65.3MB/s] 89%|████████▊ | 468M/528M [00:07<00:01, 53.9MB/s] 90%|█████████ | 476M/528M [00:07<00:00, 59.4MB/s] 91%|█████████ | 482M/528M [00:07<00:00, 54.1MB/s] 92%|█████████▏| 487M/528M [00:08<00:00, 55.8MB/s] 94%|█████████▍| 496M/528M [00:08<00:00, 63.7MB/s] 95%|█████████▌| 502M/528M [00:08<00:00, 64.4MB/s] 96%|█████████▋| 508M/528M [00:08<00:00, 64.8MB/s] 98%|█████████▊| 515M/528M [00:08<00:00, 64.6MB/s] 99%|█████████▊| 521M/528M [00:08<00:00, 63.7MB/s]100%|█████████▉| 527M/528M [00:08<00:00, 63.3MB/s]100%|██████████| 528M/528M [00:08<00:00, 64.0MB/s]
+Training Started
+Epoch 1/50 - Train loss: 1.1972, Train accuracy: 0.6475, Validation loss: 0.8159, Validation accuracy: 0.7366
+Validation loss decreased (inf --> 0.815879). Saving model...
+Epoch 2/50 - Train loss: 1.0611, Train accuracy: 0.6920, Validation loss: 0.7940, Validation accuracy: 0.7482
+Validation loss decreased (0.815879 --> 0.793972). Saving model...
+Epoch 3/50 - Train loss: 1.0882, Train accuracy: 0.6954, Validation loss: 0.7511, Validation accuracy: 0.7721
+Validation loss decreased (0.793972 --> 0.751076). Saving model...
+Epoch 4/50 - Train loss: 1.0876, Train accuracy: 0.6997, Validation loss: 0.6730, Validation accuracy: 0.7898
+Validation loss decreased (0.751076 --> 0.672959). Saving model...
+Epoch 5/50 - Train loss: 1.1017, Train accuracy: 0.7014, Validation loss: 0.6019, Validation accuracy: 0.8025
+Validation loss decreased (0.672959 --> 0.601933). Saving model...
+Epoch 6/50 - Train loss: 1.0984, Train accuracy: 0.7074, Validation loss: 0.6506, Validation accuracy: 0.8032
+EarlyStopping counter: 1 out of 5
+Epoch 7/50 - Train loss: 1.1101, Train accuracy: 0.7077, Validation loss: 0.7225, Validation accuracy: 0.7769
+EarlyStopping counter: 2 out of 5
+Epoch 8/50 - Train loss: 1.1315, Train accuracy: 0.7071, Validation loss: 0.6665, Validation accuracy: 0.7948
+EarlyStopping counter: 3 out of 5
+Epoch 9/50 - Train loss: 1.1344, Train accuracy: 0.7066, Validation loss: 0.8049, Validation accuracy: 0.7662
+EarlyStopping counter: 4 out of 5
+Epoch 10/50 - Train loss: 1.1266, Train accuracy: 0.7089, Validation loss: 0.6833, Validation accuracy: 0.7996
+EarlyStopping counter: 5 out of 5
+Early stopping
+Training Complete
+Test Loss: 0.5880
+Test Accuracy: 0.8164
+                                                    precision    recall  f1-score   support
+
+                                Apple___Apple_scab       0.92      0.52      0.67        63
+                                 Apple___Black_rot       0.89      0.92      0.91        63
+                          Apple___Cedar_apple_rust       0.79      0.68      0.73        28
+                                   Apple___healthy       0.95      0.78      0.86       165
+                               Blueberry___healthy       0.75      0.93      0.83       151
+          Cherry_(including_sour)___Powdery_mildew       0.94      0.75      0.83       106
+                 Cherry_(including_sour)___healthy       0.79      0.95      0.86        86
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot       0.71      0.87      0.78        52
+                       Corn_(maize)___Common_rust_       0.99      0.99      0.99       120
+               Corn_(maize)___Northern_Leaf_Blight       0.92      0.81      0.86        99
+                            Corn_(maize)___healthy       0.99      1.00      1.00       117
+                                 Grape___Black_rot       0.81      0.85      0.83       118
+                      Grape___Esca_(Black_Measles)       0.86      0.88      0.87       139
+        Grape___Leaf_blight_(Isariopsis_Leaf_Spot)       0.96      0.86      0.91       108
+                                   Grape___healthy       0.96      0.58      0.72        43
+          Orange___Haunglongbing_(Citrus_greening)       0.93      1.00      0.96       551
+                            Peach___Bacterial_spot       0.79      0.96      0.87       230
+                                   Peach___healthy       0.90      0.75      0.82        36
+                     Pepper,_bell___Bacterial_spot       0.94      0.74      0.83       100
+                            Pepper,_bell___healthy       0.77      0.89      0.82       148
+                             Potato___Early_blight       0.91      0.77      0.83       100
+                              Potato___Late_blight       0.69      0.79      0.74       100
+                                  Potato___healthy       0.44      0.69      0.54        16
+                               Raspberry___healthy       0.88      0.97      0.93        38
+                                 Soybean___healthy       0.97      0.86      0.91       509
+                           Squash___Powdery_mildew       0.99      0.84      0.91       184
+                          Strawberry___Leaf_scorch       0.95      0.89      0.92       111
+                              Strawberry___healthy       0.93      0.91      0.92        46
+                           Tomato___Bacterial_spot       0.83      0.59      0.69       213
+                             Tomato___Early_blight       0.45      0.46      0.46       100
+                              Tomato___Late_blight       0.84      0.57      0.68       191
+                                Tomato___Leaf_Mold       0.67      0.51      0.58        96
+                       Tomato___Septoria_leaf_spot       0.52      0.77      0.62       178
+     Tomato___Spider_mites Two-spotted_spider_mite       0.40      0.90      0.55       168
+                              Tomato___Target_Spot       0.71      0.21      0.32       141
+            Tomato___Tomato_Yellow_Leaf_Curl_Virus       0.95      0.86      0.90       536
+                      Tomato___Tomato_mosaic_virus       0.46      0.68      0.55        38
+                                  Tomato___healthy       0.75      0.82      0.79       160
+
+                                          accuracy                           0.82      5448
+                                         macro avg       0.81      0.78      0.78      5448
+                                      weighted avg       0.85      0.82      0.82      5448
+
